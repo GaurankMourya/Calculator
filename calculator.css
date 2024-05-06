@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .structure{
+    position: relative;
+    height: 80vh;
+    width: 25vw;
+    display: grid;
+    border-radius: 15px;
+    grid-template-rows: 0.75fr 5.5fr;
+    background-color: #212121;
+    overflow: hidden;
+}
+.structure .display{
+    margin-top: 15px;
+    margin-left: 9px;
+    height: 80%;
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #212121;
+    font-size: 3rem;
+    background-color: aliceblue;
+}
+.structure .inputs{ 
+    margin-top: 15px;
+    height: 95%;
+    /* background-color: burlywood; */
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 0.20fr 0.20fr 0.20fr 0.20fr 0.20fr;
+}
+.inputs .row-1,
+.row-2,.row-3,.row-4,.row-5{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+}
+.row-1 button,
+.row-2 button,
+.row-3 button,
+.row-4 button,
+.row-5 button{
+    height: 90%;
+    width: 20%;
+    transition: all ease 0.50s;
+    font-size: x-large;
+    border-radius: 10px;
+}
+button:hover{
+    transition: all ease 0.50s;
+    background-color: #212121;
+    color: aliceblue;
+}
+.enter{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.onn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.off{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
