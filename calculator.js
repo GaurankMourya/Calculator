@@ -17,9 +17,6 @@ Array.from(buttons).forEach(function (value) {
             string = eval(string);
             display.innerHTML = `${string}`
         }
-        // else if (value.innerHTML == 'OFF') {
-        //     value.style.display = "none"
-        // }
         else if(value.innerHTML == "AC"){
             string = "";
             display.innerHTML = `${string}`
